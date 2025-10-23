@@ -1,0 +1,18 @@
+# PDF 批量翻译工具依赖包
+
+# PDF 处理
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+
+# AI API 集成
+openai>=1.0.0
+
+# PDF 生成
+reportlab>=4.0.0
+
+# 配置管理
+python-dotenv>=1.0.0
+
+# 可选：进度条显示
+tqdm>=4.65.0
+
