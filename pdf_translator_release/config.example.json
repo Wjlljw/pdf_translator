@@ -1,0 +1,30 @@
+{
+  "api": {
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "api_key": "YOUR_DEEPSEEK_API_KEY_HERE",
+    "base_url": "https://api.deepseek.com",
+    "max_tokens": 4000,
+    "temperature": 0.3
+  },
+  "translation": {
+    "source_lang": "en",
+    "target_lang": "zh",
+    "chunk_size": 2500,
+    "preserve_formulas": true,
+    "preserve_images": true,
+    "context_overlap": 200
+  },
+  "output": {
+    "suffix": "_chn",
+    "format": "pdf",
+    "keep_original_layout": true
+  },
+  "processing": {
+    "max_concurrent": 1,
+    "retry_times": 3,
+    "retry_delay": 2,
+    "cache_enabled": true
+  }
+}
+
